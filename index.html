@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Library Management System</h1>
+    </header>
+
+    <!-- Login Form Section -->
+    <section id="login-section">
+        <div class="login-box">
+            <h2>User Login</h2>
+            <form id="loginForm">
+                <div class="textbox">
+                    <input type="text" id="username" placeholder="Enter Username" required>
+                </div>
+                <div class="textbox">
+                    <input type="password" id="password" placeholder="Enter Password" required>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <button type="button" class="btn" id="forgotBtn">Forgot Password?</button>
+                <button type="button" class="btn" id="signUpBtn">Sign Up</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Book Flip Section -->
+    <section id="book-section">
+        <h2>Featured Books</h2>
+        <div class="book-flip-container">
+            <div class="book-flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="book1.jpg" alt="Book 1" class="book-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Book Title 1</h3>
+                        <p>Author: John Doe</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="book2.jpg" alt="Book 2" class="book-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Book Title 2</h3>
+                        <p>Author: Jane Doe</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
